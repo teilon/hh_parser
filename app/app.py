@@ -5,5 +5,5 @@ from models.headhunter import meta
 meta.create_all(db)
 
 if __name__ == '__main__':
-    parser = HeadHunter(search_word="Python", is_max_size=False)
+    parser = HeadHunter(search_word="Python", is_max_size=True)
     parser.run()

@@ -9,7 +9,7 @@ from selenium import webdriver
 from models.headhunter import HeadHunterTable
 from db import db
 
-CHROMEDRIVER_PATH = "../webdriver/chromedriver_86.0.4240.22/chromedriver"
+CHROMEDRIVER_PATH = "webdriver/chromedriver_86.0.4240.22/chromedriver"
 TARGET_URL = "https://hh.kz/search/vacancy?area=160&fromSearchLine=true&st=searchVacancy&text={}&from=suggest_post"
 MAX_ITERATION = 1
 MIN_TIMEOUT = 6
